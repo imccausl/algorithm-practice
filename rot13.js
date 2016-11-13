@@ -1,3 +1,13 @@
+/*********
+ * rot13(str)
+ * decodes a cipher in ROT13, where the (ASCII) values of letters are shifted 13 places. A -> N, B -> O, etc.
+ * this is a super basic algorithm for practice, but I did find it super helpful to use decomposition
+ * in order to break the probelm into a second step, exemplified in the convertROT13(code) function.
+ *
+ * There function obviously only works for capital letters, because the point was less to do with making it
+ * super robust than with solving a basic algorithm. 
+ */
+ 
 function rot13(str) { // LBH QVQ VG!
   var buffer = 0, test = 0;
   var newString = "";
