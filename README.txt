@@ -1,1 +1,1 @@
-Hello World!\n
+A repository for algorithm practice. The code here ranges from super basic to more advanced algorithms, usually just outputting to the console; sometimes using return. None of those details matter, really. Let's be honest.
